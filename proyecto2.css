@@ -1,0 +1,38 @@
+body{
+    background-color: darkslategrey;
+}
+.estudios{
+    color: white;
+    margin-top: 8rem;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.estudios h1{
+    color: cornflowerblue;
+}
+.experiencia{
+    color: white;
+    margin-top: 7rem;
+    text-align: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.experiencia h2{
+    color: cornflowerblue;
+}
+.volver a{
+    background-color: aqua;
+    display: block;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10rem 11rem;
+    padding: 1rem 3rem;
+    color: rgb(41, 48, 27);
+    text-decoration: none;
+    margin-top: 7rem;
+    border-radius: 2rem;
+    width: 50px;
+    font-weight: 600;
+}

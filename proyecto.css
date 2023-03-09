@@ -1,0 +1,229 @@
+
+/*PARA HACER LA PAGINA RESPONSIVA*/
+
+
+/* Estilos para las secciones */
+section {
+    height: 30%;
+    padding: 10%;
+    font-size: 2rem;
+    /*text-align: center;*/
+    
+}
+#inicio {
+    background-color: #1c1d22;
+}
+#acerca {
+    background-color: #779da8;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#contacto {
+    background-color: #bbb;
+    height: 40%;
+
+}
+/* Estilos para los enlaces de navegación */
+nav a {
+    display:inline-block; 
+    padding: 2%;
+    margin: 1rem;
+    background-color: #0099cc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 1rem;
+    transition: background-color 0.3s ease;
+    justify-content: space-between;
+    margin-left: 15rem;
+   
+}
+nav a:hover {
+    background-color: #006699;
+    transition: ease-in .4s;
+}
+
+nav{
+    background-color: #191c32;
+    
+}
+
+/*ESTILOS PARA LA PARTE DE INICIO*/
+
+.main img{
+    width: 90%;
+    height: 90%;
+    margin-left: 2em;
+    margin-top: 0.2%;
+}
+.main{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+/*BOTON DE DESCARGA DE CV*/
+.download-cv{
+    padding: 1rem 2rem;
+    background-color: aqua;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    box-shadow: 1px 3px --5px rgb(102,231,200, .69);
+    margin-top: 1em;
+    margin-left: 20em;
+
+}
+
+.info-content{
+    width: 90%;
+    height: 100%;
+}
+
+.info-content h1{
+    color: rgb(127, 255, 144);
+    margin-top: 2em;
+    font-size: 50px;
+
+}
+.info-content p{
+    font-size: 30px;
+    color: aquamarine;
+}
+
+/*SECCION ACERCA DE MI*/
+
+.acerca{
+    width: 80%;
+}
+.contact-section{
+    margin-left: 20em;
+}
+
+section img{
+    width: 80%;
+    height: 83%;
+    margin-left: -1em;
+    margin-top: 2rem;
+}
+.about-info h2{
+    font-size: 2em;
+    margin-top: -50px;
+}
+
+.divider{
+    background-color: aqua;
+    margin-top: 2px;
+    margin-bottom: 1em;
+}
+
+.acerca h2{
+    margin-bottom: 1em;
+}
+.miEnlace a{
+    border-radius: 3rem;
+    border-style: none;
+    padding: 1rem 1rem;
+    cursor: pointer;
+    box-shadow: 1rem 2rem --3rem rgb(102,231,200, .69);
+    background-color: aqua;
+    margin-top: 5rem;
+    text-decoration: none;
+    font-size: medium;
+
+}
+.miEnlace a :hover{
+    background-color: transparent;
+    border: 0.2rem solid #779da8;
+    color: #779da8;
+}
+
+/*ESCRIBIR TEXTO AL LADO DE UN ICONO O IMAGEN*/
+.ce,.casa,.cel{
+    width: 2rem;
+    height: 2rem;
+    float: left;
+    margin-right: 3rem;
+    color: bisque;
+}
+
+/*SECCION CONTACTO*/
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 0.5em;
+    align-content: center;
+    margin-left: -50%;
+}
+.form input{
+    padding: 1% 2%;
+    margin-bottom: 1em;
+    border: 1px solid #fff;
+    color: #191c32;
+}
+.form textarea{
+    width: 89%;
+    height: 10rem;
+    padding: 1.5rem;
+    border: 1px solid #fff;
+}
+.contact-headings h2{
+    margin-top: -100px;
+    margin-left: -50%;
+}
+.contact-form h4{
+    margin-top: -10px;
+    margin-left: -50%;
+}
+/*BOTON DE ENVIO DE FORMULARIO*/
+.btn-submit{
+    padding: 1% 2%;
+    margin: 1em;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 3px --5px rgba(102, 231,200, rgb(102,231,200, .69));
+    border-radius: 20px;
+}
+
+/*PIE DE PAGINA*/
+.footer{
+    background-color: #0099cc;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+   
+}
+
+.footer-context{
+    text-align: center;
+    margin-left: 0.1rem;
+}
+.footer-context h2{
+    font-size: 2rem;
+    color: aquamarine;
+    margin-left: 3rem;
+    text-align: left;
+    display: inline-block;
+}
+
+.footer-context h5{
+    font-size: 1.2em;
+    margin-top: -60%;
+    margin-right: 20%;
+    text-align:right;
+    
+}
+.social-network img{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+
+}
